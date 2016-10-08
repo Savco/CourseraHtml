@@ -4,20 +4,19 @@
 	min-width: 160px;
 }
 
-section {
-	position: relative;
+section {	
 	border: 1px solid black;
 	background: #eacda3;
-	margin: 1%;
+	margin: 5px;
 }
 
 h1 {
-	text-align: center;
+	text-align:center;
 }
 
 p {
 	clear: right;
-	padding: 5px
+	padding: 5px;
 }
 
 .section-title {
@@ -26,6 +25,9 @@ p {
 	padding: 5px 20px 5px 20px;
 	border: 1px solid black;
 	float: right;
+	position: relative;
+	right: -1px;
+	top: -1px;
 	text-align: center;
 }
 
@@ -59,7 +61,7 @@ p {
 		float: left;
 	}
 	.col-md-6 {
-		width: 48%;
+		width: 48.4%;
 	}
 	.col-md-12 {
 		width: 98%;
@@ -71,5 +73,6 @@ p {
 	}
 	.col-sm-12 {
 		width: 98%;
+		margin: 10px;
 	}
 }
